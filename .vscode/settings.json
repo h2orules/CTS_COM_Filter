@@ -1,0 +1,10 @@
+{
+  "micropico.syncFolder": "src",
+  "micropico.openOnStart": true,
+  "micropico.fileTypes": ["py", "json"],
+
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.unittestEnabled": false
+}
