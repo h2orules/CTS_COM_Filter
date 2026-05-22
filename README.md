@@ -50,7 +50,7 @@ Download the XIAO ESP32-S3 MicroPython firmware (v1.23 or later) from
 Flash it using `esptool`:
 
 ```bash
-pip install esptool
+uv pip install esptool
 # Put the XIAO into download mode: hold BOOT, press RESET, release BOOT
 esptool.py --chip esp32s3 --port /dev/tty.usbmodem* erase_flash
 esptool.py --chip esp32s3 --port /dev/tty.usbmodem* write_flash -z 0x0 XIAO_ESP32S3-*.bin
