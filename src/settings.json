@@ -1,0 +1,26 @@
+{
+  "mode": "relay_two_port",
+  "port_a": {
+    "uart_id": 1,
+    "tx_pin": 1,
+    "rx_pin": 2,
+    "baud": 9600,
+    "bits": 8,
+    "parity": null,
+    "stop": 1
+  },
+  "port_b": {
+    "uart_id": 2,
+    "tx_pin": 3,
+    "rx_pin": 4,
+    "baud": 9600,
+    "bits": 8,
+    "parity": null,
+    "stop": 1
+  },
+  "log": {
+    "show_timestamps": true,
+    "show_hex": false,
+    "verbose": false
+  }
+}
